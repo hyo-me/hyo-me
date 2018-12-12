@@ -6,6 +6,7 @@ make strtok  2018044984 hyo-jeong
 
 #include <stdio.h>
 #include <string.h>
+
 char* hyo_strtok();
 
 int main(void){
