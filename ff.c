@@ -15,23 +15,22 @@ int main(void){
 	 char str1[999] = "AM I NERD ?";
 	 char str2[999] = "YOU ARE ALREADY NERD ^^";
 
-	 char* fuk = strtok(str1,sep);
-	 while(fuk != NULL){
-	     printf("%s\n",fuk);
-	     fuk = strtok(NULL,sep);
+	 char* tue = strtok(str1,sep);
+	 while(tue != NULL){
+	     printf("%s\n",tue);
+	     tue = strtok(NULL,sep);
 	     }
 	 
 	 printf("\n");
 
-	 char* fuc = hyo_strtok(str2,sep);
-	 while(fuc != NULL){
-	     printf("%s\n",fuc);
-	     fuc = hyo_strtok(NULL,sep);
+	 char* wed = hyo_strtok(str2,sep);
+	 while(wed != NULL){
+	     printf("%s\n",wed);
+	     wed = hyo_strtok(NULL,sep);
 	     }
 
 	 return 0;
 }
-
 
 char* hyo_strtok(char *str,const char *sep){
 	 
@@ -65,6 +64,7 @@ char* hyo_strtok(char *str,const char *sep){
 		     return ff;
 	             }
 		 }
+	 printf("%s\n",fuc);
 	
 	 return NULL;
 }
